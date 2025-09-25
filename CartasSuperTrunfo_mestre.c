@@ -2,8 +2,8 @@
 #include <locale.h> // biblioteca para poder usar acentos do português
 
 // Desafio Super Trunfo - Países
-// Tema 2 - Calculo de variaveis densidade populacional
-// Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
+// Tema 3 - desafio final
+// Objetivo: Desafio: nível mestre
 
 int main() {
   // cada carta tem seu próprio conjunto de variáveis 
@@ -18,6 +18,8 @@ int populacao1;
 float area1;
 float pib1;
 int pontos_turisticos1;
+float super_poder1; //nova variavel para super poder
+
 // novas variaveis para calculo nivel aventureiro carta 1
 
 float densidade_populacional1;
@@ -39,11 +41,13 @@ int pontos_turisticos2;
 
 float densidade_populacional2;
 float pib_per_capita2;
+float super_poder2; //nova variavel para super poder
+
 
 // Área para entrada de dados
 printf("---- Desafio Super Trunfo ----\n");
 printf("----       Bem vindo      ----\n");
-printf("----  Nível Aventureiro   ----\n");
+printf("----  Nível Mestre   ----\n");
 printf("---- Cadastro da Carta 1  ----\n");
 
 // pede para digitar uma letra
@@ -52,7 +56,7 @@ printf("Digite uma Letra de 'A' a 'H': ");
 scanf(" %c", &estado_letra1);
 
 // pede para digitar um número
-printf("Digite um número de 01 a 04 (ex: A01, H04: ");
+printf("Digite um número de 01 a 04 (ex: A01, H04): ");
 scanf("%s", codigo_carta1);
 
 // pede para digitar o nome da cidade
@@ -61,7 +65,7 @@ scanf(" %[^\n]", nome_cidade1);
 
 // pede para digitar o número de habitantes
 printf("Digite o número de habitantes da cidade: ");
-scanf("%d", &populacao1);
+scanf("%lu", &populacao1);
 
 // pede para digitar a área em km²
 printf("Digite a Área da cidade (em KM²): ");
@@ -94,7 +98,7 @@ scanf(" %[^\n]", nome_cidade2);
 
 // pede para digitar o número de habitantes
 printf("Digite o número de habitantes da cidade: ");
-scanf("%d", &populacao2);
+scanf("%lu", &populacao2);
 
 // pede para digitar a área em km²
 printf("Digite a Área da cidade (em KM²): ");
@@ -114,12 +118,17 @@ scanf("%d", &pontos_turisticos2);
 densidade_populacional1 = (float) populacao1 / area1;
 // multiplica o PIB por 1 bilhão para ter o valor real antes de vidivir pela população
 pib_per_capita1 = (pib1 * 1000000000) / populacao1;
+// calculo do super poder (convertendo tipos para float para a soma)
+super_poder1 = (float)populacao1 + area1 + (pib1 * 1000000000) + (float)pontos_turisticos1 + pib_per_capita1 + (1.0 / densidade_populacional1);
+
 
 // calculo para carta 2
 densidade_populacional2 = (float) populacao2 / area2;
 // multiplica o PIB por 2 bilhão para ter o valor real antes de vidivir pela população
 pib_per_capita2 = (pib2 * 1000000000) / populacao2;
+super_poder2 = (float)populacao2 + area2 + (pib2 * 1000000000) + (float)pontos_turisticos2 + pib_per_capita2 + (1.0 / densidade_populacional2);
 
+// batalha das cartas
   // Área para exibição dos dados da cidade
 
   // dados da carta 1
