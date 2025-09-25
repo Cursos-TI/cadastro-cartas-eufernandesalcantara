@@ -27,6 +27,7 @@ int pontos_turisticos1;
 
 float densidade_populacional1;
 float pib_per_capita1;
+
 // novas variaveis para o nivel mestre carta 1
 float super_poder1; //nova variavel para super poder
 
@@ -42,13 +43,15 @@ float area2;
 float pib2;
 int pontos_turisticos2;
 
-// novas variaveis para o nivel mestre carta 2
-float super_poder2; //nova variavel para super poder
+
 
 // novas variaveis para calculo nivel aventureiro carta 2
 
 float densidade_populacional2;
 float pib_per_capita2;
+
+// novas variaveis para o nivel mestre carta 2
+float super_poder2; //nova variavel para super poder
 
   // Área para entrada de dados
 printf("---- Desafio Super Trunfo ----\n");

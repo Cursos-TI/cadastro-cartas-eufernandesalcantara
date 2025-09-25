@@ -18,12 +18,14 @@ unsigned long int populacao1;
 float area1;
 float pib1;
 int pontos_turisticos1;
-float super_poder1; //nova variavel para super poder
+
 
 // novas variaveis para calculo nivel aventureiro carta 1
 
 float densidade_populacional1;
 float pib_per_capita1;
+
+float super_poder1; //nova variavel para super poder
 
 // carta2
 
