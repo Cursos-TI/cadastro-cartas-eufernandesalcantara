@@ -128,7 +128,7 @@ densidade_populacional2 = (float) populacao2 / area2;
 pib_per_capita2 = (pib2 * 1000000000) / populacao2;
 super_poder2 = (float)populacao2 + area2 + (pib2 * 1000000000) + (float)pontos_turisticos2 + pib_per_capita2 + (1.0 / densidade_populacional2);
 
-// batalha das cartas
+
   // Área para exibição dos dados da cidade
 
   // dados da carta 1
@@ -159,7 +159,11 @@ super_poder2 = (float)populacao2 + area2 + (pib2 * 1000000000) + (float)pontos_t
   printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional1);
   printf("PIB per Capita: %.2f reais\n", pib_per_capita1);
 
+// Confronto final
 
+printf("---- BATALHA DO SÉCULO ----");
+// Exibe o resultado das comparações
+printf("População: Carta %d venceu (%d)\n", (venceu_area ? 1 : 2 ) venceu_população);
 
 return 0; // Indica que o progama terminou com sucesso
 } 
