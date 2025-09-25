@@ -110,6 +110,17 @@ scanf("%f" , &pib2);
 printf("Digite o número de pontos turisticos: ");
 scanf("%d", &pontos_turisticos2);
 
+// Área de cálculos --- //
+
+// calculo para carta 1
+densidade_populacional1 = (float) populacao1 / area1;
+// multiplica o PIB por 1 bilhão para ter o valor real antes de vidivir pela população
+pib_per_capita1 = (pib1 * 1000000000) / populacao1;
+
+// calculo para carta 2
+densidade_populacional2 = (float) populacao2 / area2;
+// multiplica o PIB por 1 bilhão para ter o valor real antes de vidivir pela população
+pib_per_capita2 = (pib2 * 1000000000) / populacao2;
 
 
   // Área para exibição dos dados da cidade
