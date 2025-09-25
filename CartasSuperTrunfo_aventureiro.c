@@ -99,7 +99,17 @@ scanf("%f" , &pib2);
 printf("Digite o número de pontos turisticos: ");
 scanf("%d", &pontos_turisticos2);
 
+// Área de cálculos --- //
 
+// calculo para carta 1
+densidade_populacional1 = (float) populacao1 / area1;
+// multiplica o PIB por 1 bilhão para ter o valor real antes de vidivir pela população
+pib_per_capita1 = (pib1 * 1000000000) / populacao1;
+
+// calculo para carta 2
+densidade_populacional2 = (float) populacao2 / area2;
+// multiplica o PIB por 2 bilhão para ter o valor real antes de vidivir pela população
+pib_per_capita2 = (pib2 * 1000000000) / populacao2;
 
   // Área para exibição dos dados da cidade
 
@@ -113,6 +123,9 @@ scanf("%d", &pontos_turisticos2);
   printf("PIB: %.2f bilhões de reais\n", pib1); // mostra o PIB 1
   printf("Número de Pontos Turísticos: %d\n ", pontos_turisticos1); // mostra a quantidade de pontos turisticos 1
 
+  // exibição dos novos dados calculados nivel aventureiro
+  printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional1);
+  printf("PIB per Capita: %.2f reais\n", pib_per_capita1);
 
 
   // dados da carta 2
@@ -124,6 +137,9 @@ scanf("%d", &pontos_turisticos2);
   printf("Área: %.2f Km²\n ", area2); // mostra a área em km² 2 e %.2f formata para exibir 2 casas decimais
   printf("PIB: %.2f bilhões de reais\n", pib2); // mostra o PIB 2 
   printf("Número de Pontos Turísticos: %d\n ", pontos_turisticos2); // mostra a quantidade de pontos turisticos 2
+   // exibição dos novos dados calculados nivel aventureiro
+  printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional1);
+  printf("PIB per Capita: %.2f reais\n", pib_per_capita1);
 
 
 
