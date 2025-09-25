@@ -18,6 +18,10 @@ int populacao1;
 float area1;
 float pib1;
 int pontos_turisticos1;
+// novas variaveis para calculo nivel aventureiro carta 1
+
+float densidade_populacional1;
+float pib_per_capita1;
 
 // carta2
 
@@ -31,7 +35,12 @@ float area2;
 float pib2;
 int pontos_turisticos2;
 
-  // Área para entrada de dados
+// novas variaveis para calculo nivel aventureiro carta 2
+
+float densidade_populacional2;
+float pib_per_capita2;
+
+// Área para entrada de dados
 printf("---- Desafio Super Trunfo ----\n");
 printf("----       Bem vindo      ----\n");
 printf("----  Nível Aventureiro   ----\n");
