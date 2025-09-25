@@ -134,7 +134,7 @@ int venceu_populacao = populacao1 > populacao2;
 int venceu_area = area1 > area2;
 int venceu_pib = pib1 > pib2;
 int venceu_pontos = pontos_turisticos1 > pontos_turisticos2;
-int venceu_densidade = densidade_populacional1 > densidade_populacional2;
+int venceu_densidade = densidade_populacional1 < densidade_populacional2;
 int venceu_pib_per_capita = pib_per_capita1 > pib_per_capita2;
 int venceu_super_poder = super_poder1 > super_poder2;
 
@@ -145,7 +145,7 @@ int venceu_super_poder = super_poder1 > super_poder2;
   printf("Código do estado: %c\n", estado_letra1);// mostra a letra da carta 1
   printf("Número da carta: %s\n", codigo_carta1);// mostra o código da carta 1
   printf("Nome da cidade: %s\n", nome_cidade1);// mostra o nome da cidade 1
-  printf("População: %d\n", populacao1);// mostra a quantidade da população 1
+  printf("População: %lu\n", populacao1);// mostra a quantidade da população 1
   printf("Área: %.2f Km²\n ", area1); // mostra a área 1  em km² e %.2f formata para exibir 2 casas decimais
   printf("PIB: %.2f bilhões de reais\n", pib1); // mostra o PIB 1
   printf("Número de Pontos Turísticos: %d\n ", pontos_turisticos1); // mostra a quantidade de pontos turisticos 1
@@ -162,12 +162,12 @@ int venceu_super_poder = super_poder1 > super_poder2;
   printf("Código do estado: %c\n", estado_letra2);// mostra a letra da carta 2
   printf("Número da carta: %s\n", codigo_carta2);// mostra o código da carta 2
   printf("Nome da cidade: %s\n", nome_cidade2);// mostra o nome da cidade 2
-  printf("População: %d\n", populacao2);// mostra a quantidade da população 2
+  printf("População: %lu\n", populacao2);// mostra a quantidade da população 2
   printf("Área: %.2f Km²\n ", area2); // mostra a área em km² 2 e %.2f formata para exibir 2 casas decimais
   printf("PIB: %.2f bilhões de reais\n", pib2); // mostra o PIB 2 
   printf("Número de Pontos Turísticos: %d\n ", pontos_turisticos2); // mostra a quantidade de pontos turisticos 2
    // exibição dos novos dados calculados nivel aventureiro
-  printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional1);
+  printf("Densidade Populaciona2: %.2f hab/km²\n", densidade_populacional1);
   printf("PIB per Capita: %.2f reais\n", pib_per_capita1);
   printf("Super Poder:%.2f\n", super_poder2);
 
