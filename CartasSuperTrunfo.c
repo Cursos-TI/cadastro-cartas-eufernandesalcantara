@@ -134,6 +134,11 @@ pib_per_capita2 = (pib2 * 1000000000) / populacao2;
   printf("Área: %.2f Km²\n ", area1); // mostra a área 1  em km² e %.2f formata para exibir 2 casas decimais
   printf("PIB: %.2f bilhões de reais\n", pib1); // mostra o PIB 1
   printf("Número de Pontos Turísticos: %d\n ", pontos_turisticos1); // mostra a quantidade de pontos turisticos 1
+  // Novas exibições para a Carta 1
+  printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional1);
+  printf("PIB per Capita: %.2f reais\n", pib_per_capita1);
+
+
 
 
 
@@ -146,7 +151,9 @@ pib_per_capita2 = (pib2 * 1000000000) / populacao2;
   printf("Área: %.2f Km²\n ", area2); // mostra a área em km² 2 e %.2f formata para exibir 2 casas decimais
   printf("PIB: %.2f bilhões de reais\n", pib2); // mostra o PIB 2 
   printf("Número de Pontos Turísticos: %d\n ", pontos_turisticos2); // mostra a quantidade de pontos turisticos 2
-
+  // Novas exibições para a Carta 2
+  printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional2);
+  printf("PIB per Capita: %.2f reais\n", pib_per_capita2);
 
 
 return 0; // Indica que o progama terminou com sucesso
