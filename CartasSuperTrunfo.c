@@ -5,6 +5,7 @@
 // Tema 1 - Cadastro das cartas
 // Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
 //Tema 2 - Calculo de variaveis densidade populacional
+// Tema 3 - Batalha das cartas
 int main() {
 
   setlocale(LC_ALL, "Portuguese"); // Adicione esta linha para ativar a acentuação em português
@@ -47,7 +48,7 @@ float pib_per_capita2;
   // Área para entrada de dados
 printf("---- Desafio Super Trunfo ----\n");
 printf("----       Bem vindo      ----\n");
-printf("----      Nível Novato    ----\n");
+printf("----      Nível Mestre   ----\n");
 printf("---- Cadastro da Carta 1  ----\n");
 
 // pede para digitar uma letra
