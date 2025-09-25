@@ -117,7 +117,7 @@ pib_per_capita1 = (pib1 * 1000000000) / populacao1;
 
 // calculo para carta 2
 densidade_populacional2 = (float) populacao2 / area2;
-// multiplica o PIB por 2 bilhão para ter o valor real antes de vidivir pela população
+// multiplica o PIB por 1 bilhão para ter o valor real antes de vidivir pela população
 pib_per_capita2 = (pib2 * 1000000000) / populacao2;
 
   // Área para exibição dos dados da cidade
@@ -147,8 +147,8 @@ pib_per_capita2 = (pib2 * 1000000000) / populacao2;
   printf("PIB: %.2f bilhões de reais\n", pib2); // mostra o PIB 2 
   printf("Número de Pontos Turísticos: %d\n ", pontos_turisticos2); // mostra a quantidade de pontos turisticos 2
    // exibição dos novos dados calculados nivel aventureiro
-  printf("Densidade Populaciona2: %.2f hab/km²\n", densidade_populacional1);
-  printf("PIB per Capita: %.2f reais\n", pib_per_capita1);
+  printf("Densidade Populaciona2: %.2f hab/km²\n", densidade_populacional2);
+  printf("PIB per Capita: %.2f reais\n", pib_per_capita2);
 
 
 
