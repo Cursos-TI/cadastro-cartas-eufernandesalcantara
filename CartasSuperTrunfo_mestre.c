@@ -130,7 +130,7 @@ super_poder2 = (float)populacao2 + area2 + (pib2 * 1000000000) + (float)pontos_t
 
 //Confronto das cartas
 
-int venceu_população = populacao1 > populacao2;
+int venceu_populacao = populacao1 > populacao2;
 int venceu_area = area1 > area2;
 int venceu_pib = pib1 > pib2;
 int venceu_pontos = pontos_turisticos1 > pontos_turisticos2;
@@ -154,6 +154,8 @@ int venceu_super_poder = super_poder1 > super_poder2;
   printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional1);
   printf("PIB per Capita: %.2f reais\n", pib_per_capita1);
 
+  // super poder
+  printf("Super Poder:%.2f\n", super_poder1);
 
   // dados da carta 2
   printf("\nCarta 2: \n"); // exibe a carta 2
@@ -167,10 +169,12 @@ int venceu_super_poder = super_poder1 > super_poder2;
    // exibição dos novos dados calculados nivel aventureiro
   printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional1);
   printf("PIB per Capita: %.2f reais\n", pib_per_capita1);
+  printf("Super Poder:%.2f\n", super_poder2);
 
 // Confronto final
 
 printf("---- BATALHA DO SÉCULO ----");
+printf(" ---- final----");
 // Exibe o resultado das comparações
 printf("População: Carta %d venceu (%d)\n", (venceu_populacao ? 1 : 2), venceu_populacao);
 printf("Área: Carta %d venceu (%d)\n", (venceu_area ? 1 : 2), venceu_area);
