@@ -80,12 +80,12 @@ scanf("%d", &pontos_turisticos1);
 printf("---- Cadastro da Carta 2  ----\n");
 
 // pede para digitar uma letra
-printf("Digite um número de 01 a 04 (ex: A01, H04: ");
+printf("Digite uma Letra de 'A' a 'H': ");
 // o espaço antes do %c é importante para consumir o 'enter' de leituras anteriores
 scanf(" %c", &estado_letra2);
 
 // pede para digitar um número
-printf("Digite um número de 01 a 04: "); 
+printf("Digite um número de 01 a 04 (ex: A01, H04): "); 
 scanf("%s", codigo_carta2);
 
 // pede para digitar o nome da cidade
