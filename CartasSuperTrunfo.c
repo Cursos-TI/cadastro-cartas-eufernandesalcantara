@@ -4,9 +4,10 @@
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das cartas
 // Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
-// Tema2 nivel aventureiro
+//Tema 2 - Calculo de variaveis densidade populacional
 int main() {
   // cada carta tem seu próprio conjunto de variáveis 
+
   // carta 1
 
   // Área para definição das variáveis para armazenar as propriedades das cidades
@@ -19,6 +20,11 @@ float area1;
 float pib1;
 int pontos_turisticos1;
 
+// novas variaveis para calculo nivel aventureiro carta 1
+
+float densidade_populacional1;
+float pib_per_capita1;
+
 // carta2
 
 // Área para definição das variáveis para armazenar as propriedades das cidades
@@ -30,6 +36,11 @@ int populacao2;
 float area2;
 float pib2;
 int pontos_turisticos2;
+
+// novas variaveis para calculo nivel aventureiro carta 2
+
+float densidade_populacional2;
+float pib_per_capita2;
 
   // Área para entrada de dados
 printf("---- Desafio Super Trunfo ----\n");
