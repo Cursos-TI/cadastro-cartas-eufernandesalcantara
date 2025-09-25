@@ -18,7 +18,7 @@ int main() {
 char estado_letra1; 
 char codigo_carta1[4];
 char nome_cidade1[100];
-int populacao1;
+unsigned long int populacao1;
 float area1;
 float pib1;
 int pontos_turisticos1;
@@ -27,6 +27,8 @@ int pontos_turisticos1;
 
 float densidade_populacional1;
 float pib_per_capita1;
+// novas variaveis para o nivel mestre carta 1
+float super_poder1; //nova variavel para super poder
 
 // carta2
 
@@ -35,10 +37,13 @@ float pib_per_capita1;
 char estado_letra2;
 char codigo_carta2[4];
 char nome_cidade2[100];
-int populacao2;
+unsigned long int populacao2;
 float area2;
 float pib2;
 int pontos_turisticos2;
+
+// novas variaveis para o nivel mestre carta 2
+float super_poder2; //nova variavel para super poder
 
 // novas variaveis para calculo nivel aventureiro carta 2
 
@@ -66,7 +71,7 @@ scanf(" %[^\n]", nome_cidade1);
 
 // pede para digitar o número de habitantes
 printf("Digite o número de habitantes da cidade: ");
-scanf("%d", &populacao1);
+scanf("%lu", &populacao1);
 
 // pede para digitar a área em km²
 printf("Digite a Área da cidade (em KM²): ");
@@ -99,7 +104,7 @@ scanf(" %[^\n]", nome_cidade2);
 
 // pede para digitar o número de habitantes
 printf("Digite o número de habitantes da cidade: ");
-scanf("%d", &populacao2);
+scanf("%lu", &populacao2);
 
 // pede para digitar a área em km²
 printf("Digite a Área da cidade (em KM²): ");
