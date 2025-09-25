@@ -137,6 +137,17 @@ pib_per_capita2 = (pib2 * 1000000000) / populacao2;
 // calculo do super poder (convertendo tipos para float para a soma) nivel mestre
 super_poder2 = (float)populacao2 + area2 + (pib2 * 1000000000) + (float)pontos_turisticos2 + pib_per_capita2 + (1.0 / densidade_populacional2);
 
+//Confronto das cartas
+
+int venceu_populacao = populacao1 > populacao2;
+int venceu_area = area1 > area2;
+int venceu_pib = pib1 > pib2;
+int venceu_pontos = pontos_turisticos1 > pontos_turisticos2;
+int venceu_densidade = densidade_populacional1 < densidade_populacional2;
+int venceu_pib_per_capita = pib_per_capita1 > pib_per_capita2;
+int venceu_super_poder = super_poder1 > super_poder2;
+
+
 
   // Área para exibição dos dados da cidade
 
