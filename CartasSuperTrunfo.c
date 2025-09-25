@@ -156,7 +156,7 @@ int venceu_super_poder = super_poder1 > super_poder2;
   printf("Código do estado: %c\n", estado_letra1);// mostra a letra da carta 1
   printf("Número da carta: %s\n", codigo_carta1);// mostra o código da carta 1
   printf("Nome da cidade: %s\n", nome_cidade1);// mostra o nome da cidade 1
-  printf("População: %d\n", populacao1);// mostra a quantidade da população 1
+  printf("População: %lu\n", populacao1);// mostra a quantidade da população 1
   printf("Área: %.2f Km²\n ", area1); // mostra a área 1  em km² e %.2f formata para exibir 2 casas decimais
   printf("PIB: %.2f bilhões de reais\n", pib1); // mostra o PIB 1
   printf("Número de Pontos Turísticos: %d\n ", pontos_turisticos1); // mostra a quantidade de pontos turisticos 1
@@ -177,7 +177,7 @@ int venceu_super_poder = super_poder1 > super_poder2;
   printf("Código do estado: %c\n", estado_letra2);// mostra a letra da carta 2
   printf("Número da carta: %s\n", codigo_carta2);// mostra o código da carta 2
   printf("Nome da cidade: %s\n", nome_cidade2);// mostra o nome da cidade 2
-  printf("População: %d\n", populacao2);// mostra a quantidade da população 2
+  printf("População: %lu\n", populacao2);// mostra a quantidade da população 2
   printf("Área: %.2f Km²\n ", area2); // mostra a área em km² 2 e %.2f formata para exibir 2 casas decimais
   printf("PIB: %.2f bilhões de reais\n", pib2); // mostra o PIB 2 
   printf("Número de Pontos Turísticos: %d\n ", pontos_turisticos2); // mostra a quantidade de pontos turisticos 2
@@ -187,6 +187,21 @@ int venceu_super_poder = super_poder1 > super_poder2;
 
    // super poder carta 2 nivel mestre
   printf("Super Poder:%.2f\n", super_poder2);
+
+
+  // Confronto final
+
+printf("---- BATALHA DO SÉCULO ----\n");
+printf(" ---- final----\n");
+printf("-----------------------\n")
+// Exibe o resultado das comparações
+printf("População: Carta %d venceu (%d)\n", (venceu_populacao ? 1 : 2), venceu_populacao);
+printf("Área: Carta %d venceu (%d)\n", (venceu_area ? 1 : 2), venceu_area);
+printf("PIB: Carta %d venceu (%d)\n", (venceu_pib ? 1 : 2), venceu_pib);
+printf("Pontos Turísticos: Carta %d venceu (%d)\n", (venceu_pontos ? 1 : 2), venceu_pontos);
+printf("Densidade Populacional: Carta %d venceu (%d)\n", (venceu_densidade ? 1 : 2), venceu_densidade);
+printf("PIB per Capita: Carta %d venceu (%d)\n", (venceu_pib_per_capita ? 1 : 2), venceu_pib_per_capita);
+printf("Super Poder: Carta %d venceu (%d)\n", (venceu_super_poder ? 1 : 2), venceu_super_poder);
 
 
 
