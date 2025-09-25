@@ -6,6 +6,8 @@
 // Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
 //Tema 2 - Calculo de variaveis densidade populacional
 int main() {
+
+  setlocale(LC_ALL, "Portuguese"); // Adicione esta linha para ativar a acentuação em português
   // cada carta tem seu próprio conjunto de variáveis 
 
   // carta 1
