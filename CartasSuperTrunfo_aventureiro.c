@@ -34,7 +34,7 @@ int pontos_turisticos2;
   // Área para entrada de dados
 printf("---- Desafio Super Trunfo ----\n");
 printf("----       Bem vindo      ----\n");
-printf("----      Nível Novato    ----\n");
+printf("----  Nível Aventureiro   ----\n");
 printf("---- Cadastro da Carta 1  ----\n");
 
 // pede para digitar uma letra
